@@ -1,0 +1,76 @@
+<BW>	
+	<UPDATES>
+		<UPDATE_URL></UPDATE_URL>
+	</UPDATES>
+	<ARMA>
+		<A3EXE>arma3_x64.exe</A3EXE>
+		<MODS_SUBFOLDER></MODS_SUBFOLDER>
+		<LAUNCH_PARAMS>-nosplash -skipintro -world=empty</LAUNCH_PARAMS>
+		<DEV_LAUNCH_PARAMS>-showScriptErrors -noPause -noFilePatching</DEV_LAUNCH_PARAMS>
+	</ARMA>
+	<MODSETS>
+		<MODSET MM="false" setname="BW Standard MOD Set">
+			<MODS>@CBA_A3_BW;@ace_BW;@acre2;@BourbonMapRotation;@CUP_Terrains_Complete;@hlcmods;@K_MNP;@miscMods;@Podagorsk;@potato;@RHSAFRF;@RHSGREF;@RHSUSAF;@sthud;@ToraBora;@CUP_Weapons;@CUP_Units;@CUP_Vehicles;@zeus-ai;</MODS>
+			<SERVERS>
+				<SERVER servername="BW Main Server"/>
+				<SERVER servername="BW Training Server"/>
+				<SERVER servername="BW Backup Server"/>
+			</SERVERS>
+		</MODSET>
+		<MODSET MM="false" setname="BW OPTRE MOD Set">	 
+			<MODS>@CBA_A3_BW;@ace_BW;@acre2;@BourbonMapRotation;@CUP_Terrains_Complete;@hlcmods;@K_MNP;@miscMods;@Podagorsk;@potato;@RHSAFRF;@RHSGREF;@RHSUSAF;@sthud;@ToraBora;@CUP_Weapons;@CUP_Units;@CUP_Vehicles;@zeus-ai;@A2 Declassified- Fireteam Zulu;@OPCAN 3.0 By Wolf Of Tribute Modding (formerly LM);@Operation- Arsenal Expansion for OPTRE;@Operation- TREBUCHET;@Operation- TREBUCHET ACE Compat;@Operation- TREBUCHET First Contact;@Operation- TREBUCHET First Contact ACE Compat;@OPTRE - Installation 04;@OPTRE Madrigal 2.0;@HEV Patch;@JM's Structures;@OPTRE Plus - Operation Trebuchet+;</MODS>
+			<SERVERS>
+				<SERVER servername="BW OPTRE Offnight Server"/>
+			</SERVERS>	
+		</MODSET>
+		<MODSET MM="false" setname="BW WWII MOD Set">	 
+			<MODS>@CBA_A3_BW;@ace_BW;@acre2;@BourbonMapRotation;@CUP_Terrains_Complete;@hlcmods;@K_MNP;@miscMods;@Podagorsk;@potato;@RHSAFRF;@RHSGREF;@RHSUSAF;@sthud;@ToraBora;@CUP_Weapons;@CUP_Units;@CUP_Vehicles;@zeus-ai;@IFA3_AIO_LITE;@IFA3_ACE;@WW2-CSA38;@WW2-Geist;</MODS>
+			<SERVERS>
+				<SERVER servername="BW WWII Offnight Server"/>
+			</SERVERS>	
+		</MODSET>
+		<MODSET MM="true" setname="BW Mission Maker DEV">
+			<MODS>@CBA_A3_BW;@ace_BW;@acre2;@BourbonMapRotation;@CUP_Terrains_Complete;@hlcmods;@K_MNP;@miscMods;@Podagorsk;@potato;@RHSAFRF;@RHSGREF;@RHSUSAF;@sthud;@ToraBora;@CUP_Weapons;@CUP_Units;@CUP_Vehicles;@zeus-ai;</MODS>
+			<SERVERS>
+				<SERVER servername="BW Main Server"/>
+				<SERVER servername="BW Training Server"/>
+				<SERVER servername="BW Backup Server"/>
+			</SERVERS>
+		</MODSET>
+		<MODSET MM="true" setname="BW Misssion Maker TEST">
+			<MODS>@CBA_A3_BW;@ace_BW;@acre2;@BourbonMapRotation;@CUP_Terrains_Complete;@hlcmods;@K_MNP;@miscMods;@Podagorsk;@potato;@RHSAFRF;@RHSGREF;@RHSUSAF;@sthud;@ToraBora;@CUP_Weapons;@CUP_Units;@CUP_Vehicles;@zeus-ai;</MODS>
+			<SERVERS>
+				<SERVER servername="BW Main Server"/>
+				<SERVER servername="BW Training Server"/>
+				<SERVER servername="BW Backup Server"/>
+			</SERVERS>
+		</MODSET>
+	</MODSETS>
+	<SERVERS>
+		<SERVER servername="BW Main Server">
+			<SERVERIP>0.0.0.0/SERVERIP>
+			<SERVERPORT>2303</SERVERPORT>
+			<SERVERPW>blankbecausesecret</SERVERPW>
+		</SERVER>
+		<SERVER servername="BW Training Server">
+			<SERVERIP>0.0.0.0/SERVERIP>
+			<SERVERPORT>2369</SERVERPORT>
+			<SERVERPW>blankbecausesecret</SERVERPW>
+		</SERVER>
+		<SERVER servername="BW Backup Server">
+			<SERVERIP>0.0.0.0/SERVERIP>
+			<SERVERPORT>2302</SERVERPORT>
+			<SERVERPW>blankbecausesecret</SERVERPW>
+		</SERVER>
+		<SERVER servername="BW OPTRE Offnight Server">
+			<SERVERIP>0.0.0.0/SERVERIP>
+			<SERVERPORT>2385</SERVERPORT>
+			<SERVERPW>blankbecausesecret</SERVERPW>
+		</SERVER>
+		<SERVER servername="BW WWII Offnight Server">
+			<SERVERIP>0.0.0.0/SERVERIP>
+			<SERVERPORT>2302</SERVERPORT>
+			<SERVERPW>blankbecausesecret</SERVERPW>
+		</SERVER>
+	</SERVERS>
+</BW>
