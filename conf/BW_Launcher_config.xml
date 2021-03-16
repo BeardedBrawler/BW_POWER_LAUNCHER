@@ -48,27 +48,27 @@
 	</MODSETS>
 	<SERVERS>
 		<SERVER servername="BW Main Server">
-			<SERVERIP>0.0.0.0/SERVERIP>
+			<SERVERIP>0.0.0.0</SERVERIP>
 			<SERVERPORT>2303</SERVERPORT>
 			<SERVERPW>blankbecausesecret</SERVERPW>
 		</SERVER>
 		<SERVER servername="BW Training Server">
-			<SERVERIP>0.0.0.0/SERVERIP>
+			<SERVERIP>0.0.0.0</SERVERIP>
 			<SERVERPORT>2369</SERVERPORT>
 			<SERVERPW>blankbecausesecret</SERVERPW>
 		</SERVER>
 		<SERVER servername="BW Backup Server">
-			<SERVERIP>0.0.0.0/SERVERIP>
+			<SERVERIP>0.0.0.0</SERVERIP>
 			<SERVERPORT>2302</SERVERPORT>
 			<SERVERPW>blankbecausesecret</SERVERPW>
 		</SERVER>
 		<SERVER servername="BW OPTRE Offnight Server">
-			<SERVERIP>0.0.0.0/SERVERIP>
+			<SERVERIP>0.0.0.0</SERVERIP>
 			<SERVERPORT>2385</SERVERPORT>
 			<SERVERPW>blankbecausesecret</SERVERPW>
 		</SERVER>
 		<SERVER servername="BW WWII Offnight Server">
-			<SERVERIP>0.0.0.0/SERVERIP>
+			<SERVERIP>0.0.0.0</SERVERIP>
 			<SERVERPORT>2302</SERVERPORT>
 			<SERVERPW>blankbecausesecret</SERVERPW>
 		</SERVER>
