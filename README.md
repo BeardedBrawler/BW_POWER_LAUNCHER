@@ -1,7 +1,8 @@
 # BW_POWER_LAUNCHER
 Bourbon Warfare powershell based Arma Launcher
 
-Keep the .ps1 and .xml file in the same directory
+The .ps1 file can be placed anywhere on your PC and run with regular user permissions.
+The .ps1 file looks in the conf directory for a the BW_Launcher_conf.xml file to get information on mods and servers.
 
 You'll probably have to start powershell as admin and execute the following
 
@@ -18,10 +19,20 @@ Click KICKOFF!!
 Grab beer
 Play
 
+If you want a single icon to double-click and run then create a shortcut to the ps1 file and place it where you'd like (i.e. Desktop). Right-click on the shortcut and update the TARGET to include the invoking of powerhell.exe 
+
+Example:
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -file "C:\Program Files\BW_POWER_LAUNCHER\Bourbon Warfare Private Client Launcher GUI.ps1"
+
+The path to the ps1 file will be different based on where you'd like to place it. You can also choose to change the icon to the little BW icon I've included in this repo. 
+
 This has only been tested with the standard mods so far, I'm sure there's pleanty missing but it can be added in the XML
-config file at a later date.
+config file at a later date. Future Plans include adding an auto update feature where the config file will be distributed with mod updates and the power launcher will update it's own configuration, but that's future plans.
 
 CHANGELOG
+
+- BETA -
+Changed some of the file structure. I'v been using this launcher for a while now on my own, it's time to allow others to check it out.
 
 - ALPHA -
 Added to the XML configuration DEV launch options that are active when the Mission Maker checkbox is selected
