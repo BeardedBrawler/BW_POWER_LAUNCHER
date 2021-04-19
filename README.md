@@ -33,6 +33,7 @@ CHANGELOG
 
 - BETA -
 Changed some of the file structure. I'v been using this launcher for a while now on my own, it's time to allow others to check it out.
+There is now no longer one configuration file. There is a main configuration file and supplimental configs. The main config has the standard BW modset defined and the information on what servers can be connected to with that standard modset. Each supplimental config defines at least one additional modset and what server(s) that can be connected to with that modset.
 
 - ALPHA -
 Added to the XML configuration DEV launch options that are active when the Mission Maker checkbox is selected
