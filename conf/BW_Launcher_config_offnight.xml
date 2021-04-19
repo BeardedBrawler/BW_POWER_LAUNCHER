@@ -1,0 +1,17 @@
+<BW>
+	<MODSETS>
+		<MODSET MM="false" setname="BW OPTRE MOD Set">	 
+			<MODS>@CBA_A3_BW;@ace_BW;@acre2;@BourbonMapRotation;@CUP_Terrains_Complete;@hlcmods;@K_MNP;@miscMods;@Podagorsk;@potato;@RHSAFRF;@RHSGREF;@RHSUSAF;@sthud;@ToraBora;@CUP_Weapons;@CUP_Units;@CUP_Vehicles;@zeus-ai;@A2 Declassified- Fireteam Zulu;@OPCAN 3.0 By Wolf Of Tribute Modding (formerly LM);@Operation- Arsenal Expansion for OPTRE;@Operation- TREBUCHET;@Operation- TREBUCHET ACE Compat;@Operation- TREBUCHET First Contact;@Operation- TREBUCHET First Contact ACE Compat;@OPTRE - Installation 04;@OPTRE Madrigal 2.0;@HEV Patch;@JM's Structures;@OPTRE Plus - Operation Trebuchet+;</MODS>
+			<SERVERS>
+				<SERVER servername="BW OPTRE Offnight Server"/>
+			</SERVERS>	
+		</MODSET>
+	</MODSETS>
+	<SERVERS>
+		<SERVER servername="BW OPTRE Offnight Server">
+			<SERVERIP>0.0.0.0</SERVERIP>
+			<SERVERPORT>2385</SERVERPORT>
+			<SERVERPW>secret</SERVERPW>
+		</SERVER>
+	</SERVERS>
+</BW>
